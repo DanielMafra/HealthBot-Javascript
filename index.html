@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthBot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="bg-desktop">
+    <div class="bg-chat">
+      <div id="area-messages" class="area-messages">
+      </div>
+      <div id="area-interaction" class="area-interaction">
+        <p id="typing" class="no-typing">Healthbot está digitando...</p>
+        <div class="text-interaction">
+          <div class="write-message">
+            <input type="text" name="message" id="message">
+          </div>
+          <div class="send-button">
+            <button id="send" class="send" onclick="getData()"><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/calc.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
