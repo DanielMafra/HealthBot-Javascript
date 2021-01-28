@@ -64,7 +64,9 @@ function getData() {
 /* CONFIG USER DATA */
 
 function configData() {
-  switch (userData[5]) {
+  let levelAc = userData[5];
+  let compare = levelAc.toUpperCase();
+  switch (compare) {
     case 'Nenhuma':
       userData[5] = 1.2;
       break;
