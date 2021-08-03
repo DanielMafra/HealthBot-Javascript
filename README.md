@@ -1,5 +1,5 @@
 # HealthBot-Javascript
- A simple chatbot to calculate BMI, ideal weight and caloric expenditure using HTML, CSS and Javascript.
+ A simple chatbot to calculate BMI, ideal weight and caloric expenditure using HTML, CSS & Javascript.
 
 #### [Click here to see in production](https://danielmafra.github.io/healthbot)
 
